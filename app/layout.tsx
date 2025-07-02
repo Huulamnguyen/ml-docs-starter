@@ -20,11 +20,19 @@ const navbar = (
   <Navbar
     logo={
       <>
+        {
+          <img
+            src="/images/general/mldocs_icon.svg"
+            alt="Logo"
+            width={30}
+            height={30}
+          />
+        }
         <span
           style={{
-            marginLeft: ".4em",
+            marginLeft: ".2em",
             fontWeight: 800,
-            fontSize: "1.2em",
+            fontSize: "1.6em",
           }}
         >
           MLDocs
@@ -50,7 +58,7 @@ export default async function RootLayout({ children }) {
       <Head
       // ... Your additional head options
       >
-        <link rel="shortcut icon" href="/images/general/icon.svg" />
+        <link rel="shortcut icon" href="/images/general/mldocs_icon.svg" />
         {/* Your additional tags should be passed as `children` of `<Head>` element */}
       </Head>
       <body>
