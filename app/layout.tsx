@@ -11,7 +11,7 @@ export const metadata = {
 
 const banner = (
   <Banner storageKey="ml-docs-v1" dismissible={false}>
-    🛠️ This document is being developed by{" "}
+    🚀 This document is being developed by{" "}
     <Link href="https://github.com/Huulamnguyen">LamPhD</Link> as part of an
     effort to build and support Machine Learning Community{" "}
   </Banner>
