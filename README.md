@@ -1,41 +1,25 @@
-# Nextra Docs Starter 
+# MLDocs
 
-![Vercel Deploy](https://deploy-badge.vercel.app/vercel/nextra-docs-starter)
+👋 Welcome to ML Docs
 
-This starter template includes the following features:
+Your all-in-one destination to learn Machine Learning and Deep Learning.
 
-- [x] **Nextra 4**
-- [x] **Search with Pagefind**
+Whether you’re a complete beginner or an aspiring ML engineer, ML Docs offers a curated and structured path to help you master the foundations,
+build real-world projects, and explore cutting-edge topics in Machine Learning — all in one place.
 
-[**Live Demo →**](https://nextra-docs-starter.vercel.app)
+## 🚀 What you’ll find here:
 
-[![](.github/screenshot.png)](https://nextra-docs-starter.vercel.app)
+- 🤖 Core concepts of supervised and unsupervised learning
+- 🧠 Essential algorithms like linear regression, decision trees, and neural networks
+- 🧮 Key math foundations: statistics, linear algebra, and calculus
+- 🧹 Data preprocessing and exploratory data analysis
+- 🛠️ Model training, evaluation, and optimization
+- 🧪 Real-world examples using scikit-learn, TensorFlow, and Pandas
 
-## Quick Start
+## 📦 Sources We Build Upon
 
-You can deploy this template on Vercel by clicking the button below
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fphucbm%2Fnextra-docs-starter)
-
-## Local Development
-
-### Clone this repository
-
-Using the GitHub CLI:
-```bash
-gh repo clone phucbm/nextra-docs-starter
-```
-
-### Install
-```bash
-pnpm i
-```
-
-### Run the development server
-```bash
-pnpm dev
-```
-
-## License
-
-This project is licensed under the MIT License.
+- Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow by Aurélien Géron
+- Machine Learning by Andrew Ng (Coursera)
+- Deep Learning Specialization (deeplearning.ai)
+- Dive into Deep Learning (D2L.ai)
+- Kaggle Learn, fast.ai, and more

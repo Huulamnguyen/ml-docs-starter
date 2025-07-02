@@ -10,21 +10,32 @@ export const metadata = {
 };
 
 const banner = (
-  <Banner storageKey="some-key">
-    🛠️ This document is being developed by LamDev as part of an effort to build
-    and support a 🌱 machine learning community{" "}
-    <Link href="https://github.com/phucbm">LamDev</Link>
+  <Banner storageKey="ml-docs-v1" dismissible={false}>
+    🛠️ This document is being developed by{" "}
+    <Link href="https://github.com/Huulamnguyen">LamPhD</Link> as part of an
+    effort to build and support Machine Learning Community{" "}
   </Banner>
 );
 const navbar = (
   <Navbar
     logo={
-      <img src="/images/general/logo.svg" alt="Logo" width={100} height={20} />
+      <>
+        <span
+          style={{
+            marginLeft: ".4em",
+            fontWeight: 800,
+            fontSize: "1.2em",
+          }}
+        >
+          MLDocs
+        </span>
+      </>
     }
-    // ... Your additional navbar options
   />
 );
-const footer = <Footer>MIT {new Date().getFullYear()} © Nextra.</Footer>;
+const footer = (
+  <Footer>Lam Nguyen PhD {new Date().getFullYear()} © NYIT.</Footer>
+);
 
 export default async function RootLayout({ children }) {
   return (
@@ -47,7 +58,7 @@ export default async function RootLayout({ children }) {
           banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/phucbm/nextra-docs-starter/tree/main"
+          docsRepositoryBase="https://github.com/Huulamnguyen/ml-docs-starter/tree/main"
           footer={footer}
           // ... Your additional layout options
         >
