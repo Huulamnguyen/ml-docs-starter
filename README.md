@@ -23,3 +23,7 @@ build real-world projects, and explore cutting-edge topics in Machine Learning â
 - Deep Learning Specialization (deeplearning.ai)
 - Dive into Deep Learning (D2L.ai)
 - Kaggle Learn, fast.ai, and more
+
+## Technologies
+
+- Next JS and Vercel
